@@ -1,0 +1,10 @@
+GET http://localhost:3000/quotes
+
+###
+
+POST http://localhost:3000/quotes
+Content-Type: application/json
+
+{
+    "quote": "It's not what you look at that matters, it's what you see."
+}
